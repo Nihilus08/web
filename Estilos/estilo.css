@@ -1,0 +1,45 @@
+h1 {
+  font-size: 30px;
+  color: rgb(68, 68, 224);
+}
+
+body{
+    font: size 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+form {
+margin: 0 auto;
+width:350px;
+padding:5px;
+border:1px solid rgb(75, 20, 20);
+border-radius:5px;
+}
+
+form li+li {
+  margin-top: 1em;
+}
+
+input, textarea {
+  box-align: center;
+  width: 150x;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+
+}
+
+label{
+  text-align: right;
+  width: 150px;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
